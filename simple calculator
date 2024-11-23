@@ -1,0 +1,20 @@
+#simple calculator
+
+def calc():
+  num1=int(input(" enter the first value: "))
+  num2=int(input(" enter the second value: "))
+
+  operator=input(" enter the operator[+,-,*,/]: ")
+
+  if(operator=='+'):
+    print(" the sum is: ",num1+num2)
+  elif(operator=='-'): 
+    print(" the sub is: ", num1-num2)
+  elif(operator=='*'):
+    print(" the multi is: ", num1*num2)
+  elif(operator=='/'):
+    print(" the div is: ", num1/num2)
+  else:
+    print("invalid operator")
+
+calc()    
